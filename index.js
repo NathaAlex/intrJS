@@ -9,39 +9,39 @@ function verificarTabela(){
         var thead = document.createElement('thead');
         tabela.appendChild(thead);
 
-        var th1 = documento.createElement('th');
+        var th1 = document.createElement('th');
         th1.innerText = 'Matricula';
         thead.appendChild(th1);
 
-        var th2 = documento.createElement('th');
+        var th2 = document.createElement('th');
         th2.innerText = 'Nome';
         thead.appendChild(th2);
 
-        var th3 = documento.createElement('th');
+        var th3 = document.createElement('th');
         th3.innerText = 'Faltas';
         thead.appendChild(th3);
         
-        var th4 = documento.createElement('th');
+        var th4 = document.createElement('th');
         th4.innerText = 'Nota B1';
         thead.appendChild(th4);
 
-        var th5 = documento.createElement('th');
+        var th5 = document.createElement('th');
         th5.innerText = 'Nota B2';
         thead.appendChild(th5);
 
-        var th6 = documento.createElement('th');
+        var th6 = document.createElement('th');
         th6.innerText = 'Média Parcial';
         thead.appendChild(th6);
         
-        var th7 = documento.createElement('th');
+        var th7 = document.createElement('th');
         th7.innerText = 'Nota PR';
         thead.appendChild(th7);
         
-        var th8 = documento.createElement('th');
+        var th8 = document.createElement('th');
         th8.innerText = 'Média final';
         thead.appendChild(th8);
         
-        var th9 = documento.createElement('th');
+        var th9 = document.createElement('th');
         th9.innerText = 'Situação';
         thead.appendChild(th9);
     }
